@@ -1,0 +1,72 @@
+hitan@Hi10 MINGW64 ~/OneDrive/Desktop/sync folder/AI.ML/Projects/meeting_minutes
+$ git init
+Initialized empty Git repository in C:/Users/hitan/OneDrive/Desktop/sync folder/AI.ML/Projects/meeting_minutes/.git/
+
+hitan@Hi10 MINGW64 ~/OneDrive/Desktop/sync folder/AI.ML/Projects/meeting_minutes (master)
+$ git commit -"starting"
+fatal: could not read 'arting': No such file or directory
+
+hitan@Hi10 MINGW64 ~/OneDrive/Desktop/sync folder/AI.ML/Projects/meeting_minutes (master)
+$ git commit
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        audio_sample.mp3
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+hitan@Hi10 MINGW64 ~/OneDrive/Desktop/sync folder/AI.ML/Projects/meeting_minutes (master)
+$ ^C
+
+hitan@Hi10 MINGW64 ~/OneDrive/Desktop/sync folder/AI.ML/Projects/meeting_minutes (master)
+$ git add audio_sample.mp3
+
+hitan@Hi10 MINGW64 ~/OneDrive/Desktop/sync folder/AI.ML/Projects/meeting_minutes (master)
+$ git commit -m "adding audio sample"
+[master (root-commit) 4206170] adding audio sample
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 audio_sample.mp3
+
+hitan@Hi10 MINGW64 ~/OneDrive/Desktop/sync folder/AI.ML/Projects/meeting_minutes (master)
+$ git push -u origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+hitan@Hi10 MINGW64 ~/OneDrive/Desktop/sync folder/AI.ML/Projects/meeting_minutes (master)
+$ ^C
+
+hitan@Hi10 MINGW64 ~/OneDrive/Desktop/sync folder/AI.ML/Projects/meeting_minutes (master)
+$ git remote -v
+
+hitan@Hi10 MINGW64 ~/OneDrive/Desktop/sync folder/AI.ML/Projects/meeting_minutes (master)
+$ git remote add origin https://github.com/Hitanshu774/meeting_minutes.git
+
+hitan@Hi10 MINGW64 ~/OneDrive/Desktop/sync folder/AI.ML/Projects/meeting_minutes (master)
+$ git remote -v
+origin  https://github.com/Hitanshu774/meeting_minutes.git (fetch)
+origin  https://github.com/Hitanshu774/meeting_minutes.git (push)
+
+hitan@Hi10 MINGW64 ~/OneDrive/Desktop/sync folder/AI.ML/Projects/meeting_minutes (master)
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 13.67 MiB | 194.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/Hitanshu774/meeting_minutes/pull/new/master
+remote:
+To https://github.com/Hitanshu774/meeting_minutes.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+hitan@Hi10 MINGW64 ~/OneDrive/Desktop/sync folder/AI.ML/Projects/meeting_minutes (master)
+$
